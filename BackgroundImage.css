@@ -1,0 +1,19 @@
+body
+{
+	background-image:url(https://op-cdn-madavor.netdna-ssl.com/2018/01/Bob-Pool.jpg);
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	
+}
+p
+{
+	background-image: url(https://images.pexels.com/photos/54630/japanese-cherry-trees-flowers-spring-japanese-flowering-cherry-54630.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+	background-repeat: no-repeat;
+	background-size:100%;}
+h1
+{
+	
+	background-image:url(http://www.astro.cz/apod_data/2014/07/aurora_kwon_1500.jpg);
+	background-repeat: no-repeat;
+	background-size:100%;}
+}

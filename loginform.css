@@ -1,0 +1,90 @@
+body
+{
+	/*background:url(https://images.template.net/wp-content/uploads/2015/09/01180734/Fantastic-Premium-Summer-Background-Download.png);*/
+	/*background:url(https://images.unsplash.com/photo-1481973964012-59a7f3225eb1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=91b6cd3028f48974da294133f867966a&auto=format&fit=crop&w=500&q=60);*/
+	/*background:url(https://images.unsplash.com/photo-1502898393359-045c52d7914d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4a4eb3f2ffb72e31ae1f052cb3044f3b&auto=format&fit=crop&w=1350&q=80);*/
+	/*background:url(http://beltranarismendi.com/wp-content/uploads/2018/03/wedding-ring-latest-wallpapers-wedding-rings-wallpaper-beautiful-wedding-rings-wallpaper-1024-x-640.jpg); */
+	background:url(https://images.template.net/wp-content/uploads/2015/09/01180402/Astonishing-Summer-Background-For-Free.png);	
+	margin:0px;
+	padding:0px;
+	background-size:cover;
+	font-family:sans-serif;
+	background-repeat:no-repeat;
+}
+.logo
+{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	position:absolute;
+	top:-50px;
+	left:calc(50% - 50px);
+}
+.loginBox
+{
+	width:320px;
+	height:420px;
+	top:50%;
+	left:50%;
+	/*background:#000;*/
+	color:#fff;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-size: border-box;
+	padding:70px 30px;
+}
+h1
+{
+		margin:0px;
+		padding:0px;
+		text-align:center;
+		font-size:22px;
+}
+.loginBox p
+{
+		margin:0px;
+		padding:0px;
+		font-weight:bold;
+}
+.loginBox input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginBox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginBox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	background:#fb2525;
+	color:#fff;
+	height:40px;
+	font-size:18px;
+	border-radius:20px;
+}
+.loginBox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.loginBox a
+{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:darkgrey;
+}
+.loginBox a:hover
+{
+	color:#ffc107;
+}

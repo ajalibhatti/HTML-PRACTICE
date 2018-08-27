@@ -1,0 +1,38 @@
+body
+{
+	margin:0px;
+	padding:0px;
+	background:#313131;
+}
+.slider
+{
+	width:800px;
+	height:400px;
+	background:url(redRoses.jpg) cover;
+	background-repeat:no-repeat;
+	margin:100px auto;
+	animation:slide 20s infinite;
+}
+@keyframes slide
+{
+	o%
+	{
+		background:none;
+	}
+	25%
+	{
+		background:url(lilly.jpg);
+	}
+	50%
+	{
+		background:url(redRoses.jpg);
+	}
+	75%
+	{
+		background:url(roses.jpg);
+	}
+	100%
+	{
+		background:url(sunflower.jpg);
+	}
+}
